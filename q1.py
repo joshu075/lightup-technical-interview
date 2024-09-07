@@ -11,5 +11,8 @@ def intersection(nums1, nums2):
     return ret
 
 # Change the input values here.
-result = intersection([4, 9, 5], [9, 4, 9, 8, 4])
+input1 = [4, 9, 5]
+input2 = [9, 4, 9, 8, 4]
+
+result = intersection(input1, input2)
 print(result)
