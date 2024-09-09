@@ -5,7 +5,9 @@ Order does not matter for the return.
 
 def intersection(nums1, nums2):
     ret = []
+
     for num in nums1:
+        # Check if unique value is in second array.
         if num not in ret and num in nums2:
             ret.append(num)
     return ret
