@@ -36,7 +36,7 @@ def shortest_subarray(target, nums):
 
 # Change the input values here.
 input1 = 7
-input2 = [2,3,1,2,4,3]
+input2 = [2, 3, 1, 2, 4, 3]
 
 result = shortest_subarray(input1, input2)
 print(result)
